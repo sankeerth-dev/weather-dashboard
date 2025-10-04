@@ -34,13 +34,13 @@ button, .icon-btn, .unit-btn, .map-btn {
     --data-item-bg: #100e1d;
     --text-primary: #e7e7eb;
     --text-secondary: #a09fb1;
-    --icon-color: #4CAF50; /* Ayokanmi's personal green accent color */
-    --accent-color: #4CAF50; /* Ayokanmi's personal green accent color */
-    --footer-text: #e7e7eb; /* Light text for footer in dark mode */
+    --icon-color: #4CAF50; 
+    --accent-color: #4CAF50; 
+    --footer-text: #e7e7eb; 
 }
 
 body {
-    background-image: url('C:/Users/sanke/Downloads/background.jpg');
+    background-image: url('background.jpg');
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -49,7 +49,7 @@ body {
     color: var(--text-primary);
 }
 
-/* Custom scrollbar for the entire page - Ayokanmi's personal touch */
+
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -137,7 +137,7 @@ h1 {
 
 button {
     padding: 12px 20px;
-    background-color: var(--accent-color); /* Ayokanmi's personal green accent */
+    background-color: var(--accent-color); 
     color: white;
     border: none;
     border-radius: 25px;
@@ -179,12 +179,12 @@ button:active {
 }
 
 #location-btn {
-    background-color: var(--accent-color); /* Ayokanmi's personal green accent */
+    background-color: var(--accent-color); 
     opacity: 0.9;
 }
 
 #favorites-btn {
-    background-color: var(--accent-color); /* Ayokanmi's personal green accent */
+    background-color: var(--accent-color); 
     opacity: 0.8;
 }
 
@@ -227,7 +227,7 @@ button:hover {
     position: relative;
     overflow: hidden;
     z-index: 1;
-    -webkit-tap-highlight-color: transparent; /* Remove tap highlight on mobile */
+    -webkit-tap-highlight-color: transparent; 
 }
 
 .icon-btn:after {
@@ -276,7 +276,7 @@ button:hover {
     position: relative;
     overflow: hidden;
     z-index: 1;
-    -webkit-tap-highlight-color: transparent; /* Remove tap highlight on mobile */
+    -webkit-tap-highlight-color: transparent; 
 }
 
 .unit-btn:after {
@@ -998,4 +998,5 @@ footer {
     .hourly-scroll::-webkit-scrollbar {
         height: 12px;
     }
+
 }
