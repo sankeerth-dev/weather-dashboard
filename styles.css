@@ -22,7 +22,7 @@ button, .icon-btn, .unit-btn, .map-btn {
     --text-primary: #333333;
     --text-secondary: #666666;
     --icon-color: #3498db;
-    --accent-color: #4CAF50; /* Ayokanmi's personal green accent color */
+    --accent-color: #4CAF50; 
     --footer-text: #000000; /* Black text for footer in light mode */
 }
 
@@ -40,7 +40,7 @@ button, .icon-btn, .unit-btn, .map-btn {
 }
 
 body {
-    background-image: url('background.jpg');
+    background-image: url(background.jpg);
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -1000,3 +1000,4 @@ footer {
     }
 
 }
+
